@@ -6,4 +6,4 @@ if annee%4 == 0:
 	if annee%100 != 0 or annee%100 ==0:
 		print("C'est une année bissextile")
 else:
-	print("Ce n'est pas une année bissextile")
+print("Ce n'est pas une année bissextile")
