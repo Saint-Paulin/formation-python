@@ -1,8 +1,10 @@
 #!/usr/bin/python3.6
 var = "abc#a3#def#gh#e111#toto"
 var2 = var.split("#")
-print(var2)
-for var3 in var2[-1] == 1-9:
-	print(var3)
-var4 = ";".join(var2)
+results = []
+#print(var2)
+for mot in var2:
+	if mot[-1] in "0123456789":
+		results.append(mot)
+var4 = ";".join(results)
 print(var4)
